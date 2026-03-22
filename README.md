@@ -1,4 +1,4 @@
-# Go Idempotency API
+# Go Idempotency
 
 A Go HTTP server demonstrating **idempotent request handling** using Redis caching and PostgreSQL persistence.
 
@@ -31,7 +31,7 @@ Request → HMAC Auth Middleware → Rate Limiter → Handler
 
 ### Prerequisites
 
-- Docker & Docker Compose
+- Docker 
 - Go 1.21+
 - PostgreSQL 16 & Redis 7 (via Docker)
 
@@ -48,7 +48,7 @@ docker-compose up      # Start PostgreSQL & Redis
 go run main.go
 ```
 
-## API Usage
+## How to run
 
 ### Create Order (with Idempotency)
 
