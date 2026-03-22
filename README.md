@@ -1,6 +1,6 @@
 # Go Idempotency
 
-A Go HTTP server demonstrating **idempotent request handling** using Redis caching and PostgreSQL persistence.
+A Go HTTP server demonstrating **idempotent request handling** using Redis caching and PostgreSQL persistence. This is behind infrastructure of every payment system, when user clicks twice, request is handled only one time.
 
 ## Features
 
