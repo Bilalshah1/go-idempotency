@@ -16,7 +16,7 @@ A Go HTTP server demonstrating **idempotent request handling** using Redis cachi
 ```
 Request → HMAC Auth Middleware → Rate Limiter → Handler
                                                     ↓
-                                        Check Redis Cache
+                                    Check Redis Cache
                                                     ↓
                                     Cache Hit? → Return Cached
                                         ↓ Miss
